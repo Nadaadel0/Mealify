@@ -1,0 +1,171 @@
+@media screen and (min-width:640px) {
+
+}
+
+
+
+
+@media screen and (min-width:768px) {
+    .navbar {
+
+        flex-flow: row wrap;
+
+    }
+
+    .nab-links ul {
+        flex-flow: row wrap;
+    }
+
+    .logo {
+
+        width: 20%;
+    }
+
+    .nab-links {
+
+        width: 40%;
+    }
+
+    .nav-icon {
+
+        opacity: 1;
+    }
+
+    .flex-cont {
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content-header {
+        width: 50%;
+        text-align: left;
+    }
+
+    .header-image {
+        width: 40%;
+        margin: 2rem 0rem;
+    }
+
+    .header-image img {
+        width: 100%;
+    }
+
+    .header {
+
+        height: 100vh;
+    }
+
+    .nav-parent {
+        height: auto;
+    }
+
+    .icon-youtube::after {
+
+        top: 20%;
+        left: 38%;
+    }
+
+    .button-i-a{
+        width:100%;
+        margin:0px;
+    }
+    .chefs-flex .item-chef{
+        width: 46%;
+        margin: 0.5rem;
+    }
+    .gallery .container .all-gallery .column{
+        width: 48%;
+}
+
+
+.contact .container .contact-flex .contact-item {
+    width: 49%;
+}
+
+
+.contact .container form .part1 input{
+    /* background-color: #212529; */
+    width: 48%;
+    margin-top:0 ;
+}
+
+.contact .container .contact-flex .contact-item {
+  
+padding: 0.5rem 0.5rem 1rem;
+}
+.contact .container .contact-flex .contact-item .icon-contact i {
+ 
+    font-size: 18px;
+}
+
+.contact .container .contact-flex .contact-item h3 {
+
+    font-size: 20px;
+    
+  
+
+}
+
+.contact .container .contact-flex .contact-item p{
+    font-family: var(--font-ui);
+    font-size: 16px;
+}
+}
+
+
+@media screen and (min-width:1024px) {
+    .nab-links {
+
+        width: 30%;
+    }
+    .content-header  .button-i-a  button.btn1{
+        width: 150px;
+        height: 40px;
+        font-size: 0.9375rem;
+        border: none;
+        border-radius: 0px 160px 160px 160px;
+        padding: 0.625rem 1.5625rem ;
+    }
+   
+
+
+    .chefs-flex .item-chef{
+        width: 31%;
+        margin:0;
+    }
+    .chefs-flex{
+    justify-content: space-around;
+    }
+
+
+    .gallery .container .all-gallery .column{
+        width: 32.5%;
+}
+.contact .container .contact-flex .contact-item .icon-contact i {
+ 
+    font-size: 18px;
+}
+
+.contact .container .contact-flex .contact-item h3 {
+
+    font-size: 20px;
+    
+  
+
+}
+
+.contact .container .contact-flex .contact-item p{
+    font-family: var(--font-ui);
+    font-size: 16px;
+}
+
+}
+
+@media screen and (min-width:1280px) {}
+
+
+
+@media screen and (min-width:1536px) {}
